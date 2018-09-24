@@ -24,24 +24,24 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   var moreKittens = [...kittens, name];
-  // return moreKittens;
+  return moreKittens;
   return kittens;
 }
 
 function prependKitten(name) {
   var newKitten = [name, ...kittens];
-  // return newKitten;
+  return newKitten;
   return kittens;
 }
 
 function removeLastKitten() {
   var lastKitten = kittens.slice(0, kittens.length - 1);
-  // return lastKitten;
+  return lastKitten;
   return kittens;
 }
 
 function removeFirstKitten() {
   var firstKitten = kittens.slice(0);
-  // return firstKitten;
+  return firstKitten;
   return kittens;
 }
